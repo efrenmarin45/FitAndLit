@@ -3,12 +3,27 @@ import { NavLink as Link } from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
 
 export const Nav = styled.nav`
-    background: #FFFCFE;
+    background: #fff;
     height: 80px;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem calc((75vw - 1000px) / 2);
     z-index: 10;
+    position: sticky;
+
+    @media screen and (max-width: 960px){
+        transition: 0.8s all ease;
+    }
+`
+
+export const NavbarContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 24px;
+    max-width: 1100px;
 `
 
 export const NavLink = styled(Link)`
@@ -25,6 +40,10 @@ export const NavLink = styled(Link)`
     font-size: 30px;
 
     &.active {
+        border-bottom: solid 3px #9D0797;
+    }
+
+    &:hover {
         color: #99A4FF;
     }
 
@@ -35,21 +54,20 @@ export const NavLink = styled(Link)`
 
 export const Bars = styled(FaBars)`
     display: none;
-    color: #9D0797;
 
     @media screen and (max-width: 768px){
         display: block;
         position: absolute;
-        top: 1;
+        top: 0;
         right: 0;
-        transform: translate(-100%, 75%);
-        font-size: 1.8rem;
+        transform: translate(-100%, 60%);
+        font-size: 2.5rem;
         cursor: pointer;
+        color: #9D0797;
     }
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: #fff;
         color: #99A4FF;
     }
 `
@@ -58,36 +76,9 @@ export const NavMenu = styled.div`
     display: flex;
     align-items: center;
     margin-right: 24px;
+    font-family: 'Oswald', sans-serif;
 
     @media screen and (max-width: 768px){
         display: none;
     }
 `
-
-// export const NavBtn = styled.nav`
-//     display: flex;
-//     align-items: center;
-//     margin-right: 24px;
-
-//     @media screen (max-width: 768px){
-//         display: none;
-//     }
-// `
-
-// export const NavBtnLink = styled(Link)`
-//     border-radius: 4px;
-//     background: #256;
-//     padding: 10px 22px;
-//     color: #fff;
-//     border: none;
-//     outline: none;
-//     cursor: pointer;
-//     transition: all 0.2s ease-in-out;
-//     text-decoration: none;
-
-//     &:hover{
-//         transition: all 0.2s ease-in-out;
-//         background: #fff;
-//         color: #010606;
-//     }
-// `

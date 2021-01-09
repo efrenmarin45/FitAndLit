@@ -1,5 +1,4 @@
 import React from 'react';
-import { MobileNav} from './Sidebar/SidebarElement';
 import {Nav, NavLink, Bars, NavbarContainer, NavMenu} from './NavbarElements';
 import mainLogo from '../../img/fitandlit.png'
 import '../../App.css';
@@ -12,6 +11,9 @@ const Navbar = ({ toggle }) => {
                 <a href="/"><img className="logo" src={mainLogo} alt="logo image"/></a>
                 <Bars onClick={toggle} />
                 <NavMenu>
+                    <NavLink to="/home" activeStyle>
+                        Home
+                    </NavLink>
                     <NavLink to="/about" activeStyle>
                         About
                     </NavLink>
@@ -30,6 +32,5 @@ const Navbar = ({ toggle }) => {
         </>
     )
 }
-
 
 export default Navbar;

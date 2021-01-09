@@ -7,12 +7,17 @@ export const Nav = styled.nav`
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem calc((75vw - 1000px) / 2);
+    margin: 10px 0 10px 25%;
     z-index: 10;
     position: sticky;
 
+    @media screen and (max-width: 1600px){
+        margin: 15px 0 0 0;
+    }
+
     @media screen and (max-width: 960px){
         transition: 0.8s all ease;
+        margin: 15px 0 0 0;
     }
 `
 
@@ -44,11 +49,15 @@ export const NavLink = styled(Link)`
     }
 
     &:hover {
-        color: #99A4FF;
+        color: #00C9C8;
     }
 
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1185px){
         font-size: 25px;
+    }
+
+    @media screen and (max-width: 850px){
+        font-size: 22px;
     }
 `
 
@@ -68,7 +77,7 @@ export const Bars = styled(FaBars)`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        color: #99A4FF;
+        color: #00C9C8;
     }
 `
 

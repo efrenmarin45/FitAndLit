@@ -48,16 +48,16 @@ export const SidebarLink = styled(LinkScroll)`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
     color: #9D0797;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    
 
     &:hover{
-        color: teal;
+        color: #00C9C8;
         transition: 0.2s ease-in-out;
     }
 `

@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
         <>
         <Nav>
             <NavbarContainer>
-                <a href="/"><img className="logo" src={mainLogo} alt="logo image"/></a>
+                <a href="/home"><img className="logo" src={mainLogo} alt="logo image"/></a>
                 <Bars onClick={toggle} />
                 <NavMenu>
                     <NavLink to="/home" activeStyle>

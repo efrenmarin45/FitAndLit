@@ -6,14 +6,15 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 900px;
     position: relative;
     z-index: 1;
     max-width: 1800px;
     margin: auto;
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 1800px){
         padding: 0;
+
     }
 `
 
@@ -30,13 +31,93 @@ export const HeroBG = styled.div`
 `
 
 export const BGImage = styled.img`
-    // width: 100%;
-    // height: 100%;
-    // -o-object-fit: cover;
-    // object-fit: cover;
-    // background: blue;
-    clip-path: circle(20.0% at 64% 88%);
-    z-index: 10;
+    position: relative;
+    top: -700px;
+    right: -83%;
+    width: 65%;
+    height: 65%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: transparent;
+
+    @media screen and (max-width: 1560px){
+        width: 65%;
+        height: 65%;
+        top: -685px;
+        right: -75%;
+    }
+
+    @media screen and (max-width: 1465px){
+        right: -65%;
+    }
+
+    @media screen and (max-width: 1350px){
+        display: none;
+    }
+`
+
+export const HeroImgBttmCircle = styled.div`
+    position: relative;
+    top: 200px;
+    left: 100%;
+    width: 400px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #D9C0D9;
+    z-index: 0;
+    opacity: 0.5;
+
+    @media screen and (max-width: 1560px){
+        width: 375px;
+        height: 80px;
+        left: 93%;
+    }
+
+    @media screen and (max-width: 1465px){
+        left: 83%;
+    }
+
+    @media screen and (max-width: 1350px){
+        display: none;
+    }
+`
+
+
+export const BGCircles = styled.div`
+
+    @media screen and (max-width: 1350px){
+        position: relative;
+        background-color: #5D005C;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        top: 5;
+        left: 54vh;
+        box-shadow: 110px -210px 0 -50px white;
+    }
+
+    @media screen and (max-width: 1130px){
+        display: none;
+    }
+`
+
+export const BGCirclesSecond = styled.div`
+    @media screen and (max-width: 1350px){
+        position: relative;
+        background-color: #99A4FF;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        top: -35vh;
+        left: 73vh;
+        box-shadow: 25px -250px 0 -50px #E89CED,
+                    90px -425px 0 -90px #FFDAF0,
+                    130px -550px 0 -130px #FFFFFF;
+    }
+
+    @media screen and (max-width: 1130px){
+        display: none;
+    }
 `
 
 export const HeroContent = styled.div`
@@ -83,8 +164,8 @@ export const HeroH1 = styled.h1`
 
     @media screen and (max-width: 350px){
         font-size: 32px;
-        margin: 15px 0 5px 15px;
-        line-height: 35px;
+        margin: 35px 0 5px 15px;
+        line-height: 30px;
     }
 `
 
@@ -92,7 +173,7 @@ export const HeroP = styled.p`
     font-size: 30px;
     color: #fff;
     text-align: left;
-    max-width: 900px;
+    max-width: 750px;
     background-color: #9D0797;
     margin-left: 55px;
 

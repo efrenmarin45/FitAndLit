@@ -14,7 +14,10 @@ export const HeroContainer = styled.div`
 
     @media screen and (max-width: 1800px){
         padding: 0;
+    }
 
+    @media screen and (max-width: 1350px){
+        height: 700px;
     }
 `
 
@@ -82,43 +85,43 @@ export const HeroImgBttmCircle = styled.div`
     }
 `
 
+// !Removing, awaiting approval from client
+// export const BGCircles = styled.div`
 
-export const BGCircles = styled.div`
+//     @media screen and (max-width: 1350px){
+//         position: relative;
+//         background-color: #5D005C;
+//         width: 400px;
+//         height: 400px;
+//         border-radius: 50%;
+//         top: 5;
+//         left: 54vh;
+//         box-shadow: 110px -210px 0 -50px white;
+//     }
 
-    @media screen and (max-width: 1350px){
-        position: relative;
-        background-color: #5D005C;
-        width: 400px;
-        height: 400px;
-        border-radius: 50%;
-        top: 5;
-        left: 54vh;
-        box-shadow: 110px -210px 0 -50px white;
-    }
+//     @media screen and (max-width: 1130px){
+//         display: none;
+//     }
+// `
 
-    @media screen and (max-width: 1130px){
-        display: none;
-    }
-`
+// export const BGCirclesSecond = styled.div`
+//     @media screen and (max-width: 1350px){
+//         position: relative;
+//         background-color: #99A4FF;
+//         width: 400px;
+//         height: 400px;
+//         border-radius: 50%;
+//         top: -35vh;
+//         left: 73vh;
+//         box-shadow: 25px -250px 0 -50px #E89CED,
+//                     90px -425px 0 -90px #FFDAF0,
+//                     130px -550px 0 -130px #FFFFFF;
+//     }
 
-export const BGCirclesSecond = styled.div`
-    @media screen and (max-width: 1350px){
-        position: relative;
-        background-color: #99A4FF;
-        width: 400px;
-        height: 400px;
-        border-radius: 50%;
-        top: -35vh;
-        left: 73vh;
-        box-shadow: 25px -250px 0 -50px #E89CED,
-                    90px -425px 0 -90px #FFDAF0,
-                    130px -550px 0 -130px #FFFFFF;
-    }
-
-    @media screen and (max-width: 1130px){
-        display: none;
-    }
-`
+//     @media screen and (max-width: 1130px){
+//         display: none;
+//     }
+// `
 
 export const HeroContent = styled.div`
     max-width: 1100px;

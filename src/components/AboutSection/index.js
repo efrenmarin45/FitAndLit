@@ -1,17 +1,20 @@
-import { AboutContainer, TopTitle, AboutWrapper, AboutImg, AboutText } from './AboutElements';
+import { AboutContainer, TopTitle, AboutWrapper, AboutText } from './AboutElements';
+import aboutImg from '../../img/aboutImg.png';
 
 const AboutSection = () => {
     return(
         <>
             <AboutContainer>
                 <TopTitle>
-                    Testing Title
+                    About Fit&Lit
                 </TopTitle>
                 <AboutWrapper>
-                    <AboutImg>
-                    </AboutImg>
+                    <a href='#'><img className='aboutImg' src={aboutImg} alt="Picture of Nora"/></a>
                     <AboutText>
-                        Testing
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu orci molestie, elementum sapien placerat, fringilla orci. Fusce id ipsum suscipit enim commodo commodo. Sed quis erat nibh. Sed egestas augue sed nisl tempus auctor. Fusce a metus vitae erat molestie gravida. 
+                    <br></br>
+                    <br></br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu orci molestie, elementum sapien placerat, fringilla orci. Fusce id ipsum suscipit enim commodo commodo. Sed quis erat nibh. Sed egestas augue sed nisl tempus auctor. Fusce a metus vitae erat molestie gravida. 
                     </AboutText>
                 </AboutWrapper>
             </AboutContainer>

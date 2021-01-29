@@ -12,6 +12,20 @@
     margin-left: 24px;
 }
 
+.aboutImg{
+    border: 5px solid #AAA9CC;
+    border-radius: 15%;
+}
+
+
+@media screen and (max-width: 1350px){
+    .aboutImg{
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+    }
+}
+
 @media screen and (max-width: 480px){
     .logo{
         width: 80px;

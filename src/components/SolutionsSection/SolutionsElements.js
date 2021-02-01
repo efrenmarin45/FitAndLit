@@ -20,7 +20,7 @@ export const ProductTitle = styled.p`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4em;
+    font-size: 4.5em;
     padding-top: 25px;
 
     @media screen and (max-width: 1302px){

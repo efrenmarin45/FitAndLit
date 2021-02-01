@@ -9,8 +9,8 @@ export const HeroContainer = styled.div`
     height: 900px;
     position: relative;
     z-index: 1;
-    max-width: 1800px;
     margin: auto;
+    width: 1800px;
 
     @media screen and (max-width: 1800px){
         padding: 0;
@@ -18,6 +18,7 @@ export const HeroContainer = styled.div`
 
     @media screen and (max-width: 1350px){
         height: 700px;
+        width: auto;
     }
 `
 
@@ -31,6 +32,7 @@ export const HeroBG = styled.div`
     height: 100%;
     overflow: hidden;
     background-color: #9D0797;
+    margin: auto;
 `
 
 export const BGImage = styled.img`

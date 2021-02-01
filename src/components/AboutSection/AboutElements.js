@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-    width: auto;
+    width: 1800px;
+    margin: auto;
+
+    @media screen and (max-width: 1350px){
+        width: auto;
+    }
 `
 
 export const TopTitle = styled.p`
@@ -18,6 +23,11 @@ export const TopTitle = styled.p`
     @media screen and (max-width: 1302px){
         font-size: 3em;
         text-shadow: none;
+        margin-top: 75px;
+    }
+
+    @media screen and (max-width: 700px){
+        margin-bottom: 75px;
     }
 `
 
@@ -27,9 +37,14 @@ export const AboutWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
     
     @media screen and (max-width: 1350px){
         flex-wrap: wrap;
+        height: 900px;
+    }
+
+    @media screen and (max-width: 800px){
         height: 900px;
     }
 `
@@ -43,5 +58,9 @@ export const AboutText = styled.div`
     @media screen and (max-width: 1350px){
         margin: 50px 25px 5px 25px;
         font-size: 1.5em;
+    }
+
+    @media screen and (max-width: 700px){
+        font-size: 1.3em;
     }
 `

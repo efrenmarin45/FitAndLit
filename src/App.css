@@ -46,6 +46,13 @@
     padding: 50px 0 90px 0;
 }
 
+.transformImg{
+    width: auto;
+    height: 600px;
+    border: 5px solid #E959BC;
+    border-radius: 3%;
+}
+
 @media screen and (max-width: 1350px){
     .aboutImg{
         width: 70%;
@@ -83,6 +90,10 @@
         width: 400px;
         height: 440px;
     }
+
+    .transformImg{
+        height: 500px;
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -94,6 +105,10 @@
     .productFour{
         width: 380px;
         height: 420px;
+    }
+
+    .transformImg{
+        height: 400px;
     }
 }
 
@@ -113,6 +128,22 @@
     .productFour{
         width: 300px;
         height: 340px;
+    }
+
+    .transformImg{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .transformImg{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .transformImg{
+        height: 300px;
     }
 }
 

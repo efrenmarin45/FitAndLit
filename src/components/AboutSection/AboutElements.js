@@ -13,7 +13,7 @@ export const TopTitle = styled.p`
     align-items: center;
     justify-content: center;
     font-size: 4em;
-    padding: 35px 0;
+    margin-top: 125px;
 
     @media screen and (max-width: 1302px){
         font-size: 3em;
@@ -22,14 +22,15 @@ export const TopTitle = styled.p`
 `
 
 export const AboutWrapper = styled.div`
-    height: 700px;
-    margin: auto;
+    height: 800px;
+    margin: 0 auto 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     
     @media screen and (max-width: 1350px){
         flex-wrap: wrap;
+        height: 900px;
     }
 `
 

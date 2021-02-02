@@ -1,4 +1,4 @@
-import { SolutionsContainer, ProductTitle, ProductTitleTwo, SolutionOne, SolutionTwo, SolutionThree, SolutionFour, SolutionTextOne, SolutionButton, SolutionButtonTwo, SolutionBladeLeft, SolutionBladeRight, SolutionTextTwo } from './SolutionsElements';
+import { SolutionsContainer, ProductTitle, ProductTitleTwo, SolutionOne, SolutionTwo, SolutionThree, SolutionFour, SolutionTextOne, SolutionButton, SolutionButtonTwo, SolutionBladeLeft, SolutionBladeRight, SolutionTextTwo, } from './SolutionsElements';
 import Tea from '../../img/tea.png';
 import Coffee from '../../img/delgadaCoffee.PNG';
 import Drops from '../../img/resolutionDrops.PNG';

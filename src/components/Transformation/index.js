@@ -1,12 +1,13 @@
-import { TopTitle, TransformationContainer, Gradient, TransformWrapper, TransformOne, TransformTwo, TransformText } from './TransformationElements';
+import { TopTitle, TransformationContainer, TransformWrapper, TransformOne, TransformTwo, TransformText } from './TransformationElements';
 import ImgOne from '../../img/TransformOne.png';
 import ImgTwo from '../../img/TransformTwo.png';
+import Waves from '../../img/waveStart.png';
 
 const TransformationSection = () => {
     return(
         <>  
-            <Gradient />
             <TransformationContainer>
+                <img className="waveBreakStart" src={Waves} />
                 <TopTitle>Real World Transformations</TopTitle>
                 <TransformWrapper>
                     <TransformOne>

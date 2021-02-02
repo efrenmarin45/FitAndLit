@@ -6,6 +6,10 @@
     font-family: 'Oswald', sans-serif;
 }
 
+a{
+    background-color: transparent;
+}
+
 .logo{
     width: 100px;
     height: auto;
@@ -53,6 +57,30 @@
     border-radius: 3%;
 }
 
+.waveBreakStart{
+    width: 1800px;
+    margin: auto;
+    background-color: #FFDAF0;
+}
+
+.waveBreakEnd{
+    width: 1800px;
+    margin: auto;
+    background-color: #FFDAF0;
+}
+
+.contactInfo{
+    background-color: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+.footerLogo{
+    background-color: transparent;
+    width: 226px;
+    margin: auto;
+}
+
 @media screen and (max-width: 1350px){
     .aboutImg{
         width: 70%;
@@ -77,6 +105,14 @@
     #nrgTitle{
         padding-bottom: 0;
         z-index: 10;
+    }
+
+    .waveBreakStart{
+        display: none;
+    }
+
+    .waveBreakEnd{
+        display: none;
     }
 }
 

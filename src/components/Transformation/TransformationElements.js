@@ -1,25 +1,13 @@
 import styled from 'styled-components';
 
-export const Gradient = styled.div`
-    width: 1800px;
-    margin: auto;
-    height: 300px;
-    background: rgb(255,218,240);
-    background: linear-gradient(0deg, rgba(255,218,240,1) 0%, rgba(255,243,250,1) 100%);
-
-    @media screen and (max-width: 1350px){
-        width: auto;
-    }
-`
-
 export const TransformationContainer = styled.div`
     width: 1800px;
     background-color: #FFDAF0;
     margin: auto;
-    height: 950px;
 
     @media screen and (max-width: 1350px){
         width: auto;
+        height: auto;
     }
 `
 
@@ -38,7 +26,7 @@ export const TopTitle = styled.p`
 
     @media screen and (max-width: 800px){
         text-align: center;
-        padding-bottom: 0;
+        padding-bottom: 50px;
     }
 
     @media screen and (max-width: 500px){
@@ -52,7 +40,6 @@ export const TopTitle = styled.p`
 
 export const TransformWrapper = styled.div`
     margin: auto;
-    height: 950px;
     background-color: #FFDAF0;
     display: flex;
     justify-content: space-around;
@@ -60,19 +47,22 @@ export const TransformWrapper = styled.div`
     @media screen and (max-width: 1350px){
         width: auto;
         flex-direction: column;
-        height: 1700px;
+        justify-content: flex-start;
     }
 `
 
 export const TransformOne = styled.div`
     background-color: #FFDAF0;
     margin: auto;
-    margin-bottom: 75px;
+    margin-bottom: 150px;
+    z-index: 10;
 `
 
 export const TransformTwo = styled.div`
     background-color: #FFDAF0;
     margin: auto;
+    margin-bottom: 150px;
+    z-index: 10;
 `
 
 export const TransformText = styled.p`

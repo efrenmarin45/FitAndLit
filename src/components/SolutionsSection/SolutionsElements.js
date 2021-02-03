@@ -173,6 +173,14 @@ export const SolutionButton = styled.button`
     z-index: 1;
     text-align: center;
 
+    :hover{
+        cursor: pointer;
+        background-color: #9D0797;
+        transform: translate(0px, -5px);
+        transition: ease-in-out .3s;
+        box-shadow: 0 5px black;
+    }
+
     @media screen and (max-width: 1350px){
         position: static;
         width: 200px;
@@ -198,6 +206,14 @@ export const SolutionButtonTwo = styled.button`
     font-size: 2.5em;
     font-weight: bold;
     z-index: 1;
+
+    :hover{
+        cursor: pointer;
+        background-color: #9D0797;
+        transform: translate(0px, -5px);
+        transition: ease-in-out .3s;
+        box-shadow: 0 5px black;
+    }
 
     @media screen and (max-width: 1350px){
         position: static;

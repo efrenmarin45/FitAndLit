@@ -18,16 +18,48 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to="home" onClick={toggle}>
                         Home
                     </SidebarLink>
-                    <SidebarLink to="about" onClick={toggle}>
+                    <SidebarLink 
+                        activeClass="active"
+                        onClick={toggle}
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-185}
+                        duration={500}
+                        activeStyle>
                         About
                     </SidebarLink>
-                    <SidebarLink to="solutions" onClick={toggle}>
+                    <SidebarLink 
+                        activeClass="active"
+                        onClick={toggle}
+                        to="solutions"
+                        spy={true}
+                        smooth={true}
+                        offset={-130}
+                        duration={500}
+                        activeStyle>
                         Solutions
                     </SidebarLink>
-                    <SidebarLink to="transformations" onClick={toggle}>
+                    <SidebarLink 
+                        activeClass="active"
+                        onClick={toggle}
+                        to="transformations"
+                        spy={true}
+                        smooth={true}
+                        offset={-110}
+                        duration={500}
+                        activeStyle>
                         Transformations
                     </SidebarLink>
-                    <SidebarLink to="contact" onClick={toggle}>
+                    <SidebarLink 
+                        activeClass="active"
+                        onClick={toggle}
+                        to="footer"
+                        spy={true}
+                        smooth={true}
+                        offset={-110}
+                        duration={500}
+                        activeStyle>
                         Contact
                     </SidebarLink>
                 </SidebarMenu>

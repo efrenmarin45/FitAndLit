@@ -176,8 +176,8 @@ export const SolutionButton = styled.button`
     :hover{
         cursor: pointer;
         background-color: #9D0797;
-        transform: translate(0px, -5px);
         transition: ease-in-out .3s;
+        transform: translate(0px, -5px);
         box-shadow: 0 5px black;
     }
 

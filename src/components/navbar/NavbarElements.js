@@ -1,15 +1,19 @@
 import styled from 'styled-components';
-import { NavLink as Link } from 'react-router-dom';
+import { Link as LinkRouter } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
 import {FaBars} from 'react-icons/fa';
 
+
 export const Nav = styled.nav`
-    background: #fff;
-    height: 80px;
+    height: 110px;
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 10px 25%;
-    z-index: 10;
+    align-items: center;
+    margin: 50px auto 20px auto;
+    padding-top: 25px;
+    z-index: 50;
     position: sticky;
+    top: 0;
 
     @media screen and (max-width: 1600px){
         margin: 15px 0 0 0;
@@ -25,18 +29,19 @@ export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
     height: 80px;
-    z-index: 1;
+    z-index: 51;
     width: 100%;
-    padding: 0 24px;
     max-width: 1100px;
+    margin: auto;
 `
 
-export const NavLink = styled(Link)`
+export const NavLink = styled(LinkScroll)`
     color: #9D0797;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
+    margin: 50px 0;
     height: 100%;
     cursor: pointer;
     font-family: 'Oswald', sans-serif;
@@ -51,6 +56,7 @@ export const NavLink = styled(Link)`
     &:hover {
         color: #00C9C8;
     }
+    
 
     @media screen and (max-width: 1185px){
         font-size: 25px;

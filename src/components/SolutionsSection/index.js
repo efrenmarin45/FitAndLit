@@ -7,7 +7,7 @@ import NRG from '../../img/nrg.PNG';
 const SolutionsSection = () => {
     return(
         <>
-            <SolutionsContainer>
+            <SolutionsContainer id="solutions">
                 <ProductTitle>Iaso Tea</ProductTitle>
                 <SolutionOne>
                     <a href="https://retail.totallifechanges.com/40642483/shopping/itemdetails?itemCode=152UB#reviews">

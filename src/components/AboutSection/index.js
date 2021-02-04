@@ -4,7 +4,7 @@ import aboutImg from '../../img/aboutImg.png';
 const AboutSection = () => {
     return(
         <>
-            <AboutContainer>
+            <AboutContainer id="about">
                 <TopTitle>
                     About Fit&Lit
                 </TopTitle>

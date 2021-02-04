@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fitandlit/static/css/main.ba6fc551.chunk.css",
-    "main.js": "/fitandlit/static/js/main.9e3e1f29.chunk.js",
-    "main.js.map": "/fitandlit/static/js/main.9e3e1f29.chunk.js.map",
+    "main.js": "/fitandlit/static/js/main.54718c77.chunk.js",
+    "main.js.map": "/fitandlit/static/js/main.54718c77.chunk.js.map",
     "runtime-main.js": "/fitandlit/static/js/runtime-main.c7a1c009.js",
     "runtime-main.js.map": "/fitandlit/static/js/runtime-main.c7a1c009.js.map",
-    "static/js/2.0b7d8967.chunk.js": "/fitandlit/static/js/2.0b7d8967.chunk.js",
-    "static/js/2.0b7d8967.chunk.js.map": "/fitandlit/static/js/2.0b7d8967.chunk.js.map",
+    "static/js/2.f1f5b1a2.chunk.js": "/fitandlit/static/js/2.f1f5b1a2.chunk.js",
+    "static/js/2.f1f5b1a2.chunk.js.map": "/fitandlit/static/js/2.f1f5b1a2.chunk.js.map",
     "index.html": "/fitandlit/index.html",
     "static/css/main.ba6fc551.chunk.css.map": "/fitandlit/static/css/main.ba6fc551.chunk.css.map",
-    "static/js/2.0b7d8967.chunk.js.LICENSE.txt": "/fitandlit/static/js/2.0b7d8967.chunk.js.LICENSE.txt",
+    "static/js/2.f1f5b1a2.chunk.js.LICENSE.txt": "/fitandlit/static/js/2.f1f5b1a2.chunk.js.LICENSE.txt",
     "static/media/TransformOne.91e69ff5.png": "/fitandlit/static/media/TransformOne.91e69ff5.png",
     "static/media/TransformTwo.6b96fc95.png": "/fitandlit/static/media/TransformTwo.6b96fc95.png",
     "static/media/aboutImg.cb3f5fae.png": "/fitandlit/static/media/aboutImg.cb3f5fae.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c7a1c009.js",
-    "static/js/2.0b7d8967.chunk.js",
+    "static/js/2.f1f5b1a2.chunk.js",
     "static/css/main.ba6fc551.chunk.css",
-    "static/js/main.9e3e1f29.chunk.js"
+    "static/js/main.54718c77.chunk.js"
   ]
 }

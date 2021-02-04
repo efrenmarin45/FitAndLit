@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/fitandlit/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/fitandlit/static/js/main.23da873d.chunk.js",
-    "main.js.map": "/fitandlit/static/js/main.23da873d.chunk.js.map",
-    "runtime-main.js": "/fitandlit/static/js/runtime-main.cd1ad22a.js",
-    "runtime-main.js.map": "/fitandlit/static/js/runtime-main.cd1ad22a.js.map",
-    "static/js/2.bebbd6a4.chunk.js": "/fitandlit/static/js/2.bebbd6a4.chunk.js",
-    "static/js/2.bebbd6a4.chunk.js.map": "/fitandlit/static/js/2.bebbd6a4.chunk.js.map",
-    "static/js/3.2bc727c6.chunk.js": "/fitandlit/static/js/3.2bc727c6.chunk.js",
-    "static/js/3.2bc727c6.chunk.js.map": "/fitandlit/static/js/3.2bc727c6.chunk.js.map",
+    "main.css": "/fitandlit/static/css/main.ba6fc551.chunk.css",
+    "main.js": "/fitandlit/static/js/main.9e3e1f29.chunk.js",
+    "main.js.map": "/fitandlit/static/js/main.9e3e1f29.chunk.js.map",
+    "runtime-main.js": "/fitandlit/static/js/runtime-main.c7a1c009.js",
+    "runtime-main.js.map": "/fitandlit/static/js/runtime-main.c7a1c009.js.map",
+    "static/js/2.0b7d8967.chunk.js": "/fitandlit/static/js/2.0b7d8967.chunk.js",
+    "static/js/2.0b7d8967.chunk.js.map": "/fitandlit/static/js/2.0b7d8967.chunk.js.map",
     "index.html": "/fitandlit/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/fitandlit/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.bebbd6a4.chunk.js.LICENSE.txt": "/fitandlit/static/js/2.bebbd6a4.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/fitandlit/static/media/logo.103b5fa1.svg"
+    "static/css/main.ba6fc551.chunk.css.map": "/fitandlit/static/css/main.ba6fc551.chunk.css.map",
+    "static/js/2.0b7d8967.chunk.js.LICENSE.txt": "/fitandlit/static/js/2.0b7d8967.chunk.js.LICENSE.txt",
+    "static/media/TransformOne.91e69ff5.png": "/fitandlit/static/media/TransformOne.91e69ff5.png",
+    "static/media/TransformTwo.6b96fc95.png": "/fitandlit/static/media/TransformTwo.6b96fc95.png",
+    "static/media/aboutImg.cb3f5fae.png": "/fitandlit/static/media/aboutImg.cb3f5fae.png",
+    "static/media/delgadaCoffee.39653efc.PNG": "/fitandlit/static/media/delgadaCoffee.39653efc.PNG",
+    "static/media/fitandlit.42aa9172.png": "/fitandlit/static/media/fitandlit.42aa9172.png",
+    "static/media/heroMainImg.2f651fd1.png": "/fitandlit/static/media/heroMainImg.2f651fd1.png",
+    "static/media/nrg.026be7b0.PNG": "/fitandlit/static/media/nrg.026be7b0.PNG",
+    "static/media/resolutionDrops.d0e09a0a.PNG": "/fitandlit/static/media/resolutionDrops.d0e09a0a.PNG",
+    "static/media/tea.1ba37f04.png": "/fitandlit/static/media/tea.1ba37f04.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd1ad22a.js",
-    "static/js/2.bebbd6a4.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.23da873d.chunk.js"
+    "static/js/runtime-main.c7a1c009.js",
+    "static/js/2.0b7d8967.chunk.js",
+    "static/css/main.ba6fc551.chunk.css",
+    "static/js/main.9e3e1f29.chunk.js"
   ]
 }

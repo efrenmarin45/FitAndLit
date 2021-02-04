@@ -58,7 +58,7 @@ export const FooterText = styled.p`
     margin: auto;
 
     @media screen and (max-width: 700px){
-        font-size: 1.7em;
+        font-size: 1.2em;
         margin-top: 25px;
     }
 `

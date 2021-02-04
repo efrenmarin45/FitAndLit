@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
                         to="footer"
                         spy={true}
                         smooth={true}
-                        offset={290}
+                        offset={90}
                         duration={500}
                         activeStyle>
                         Contact

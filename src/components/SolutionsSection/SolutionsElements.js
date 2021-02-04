@@ -80,7 +80,7 @@ export const SolutionTextOne = styled.p`
     margin: 0 25px 0 0;
 
     @media screen and (max-width: 1350px){
-        font-size: 1.5em;
+        font-size: 1.4em;
         margin: 0 30px 50px 30px;
     }
 `
@@ -91,7 +91,7 @@ export const SolutionTextTwo = styled.p`
     margin: 0 25px 100px 100px; 
 
     @media screen and (max-width: 1350px){
-        font-size: 1.5em;
+        font-size: 1.4em;
         margin: 0 30px 25px 30px;
     }
 `
@@ -192,6 +192,12 @@ export const SolutionButton = styled.button`
         border: 3px solid white;
         margin: 75px auto 0 auto;
     }
+
+    @media screen and (max-width: 700px){
+        width: 175px;
+        height: 60px;
+        font-size: 1.3em;
+    }
 `
 
 export const SolutionButtonTwo = styled.button`
@@ -225,5 +231,11 @@ export const SolutionButtonTwo = styled.button`
         left: 40%;
         border: 3px solid white;
         margin: 0 auto 100px auto;
+    }
+
+    @media screen and (max-width: 700px){
+        width: 175px;
+        height: 60px;
+        font-size: 1.3em;
     }
 `

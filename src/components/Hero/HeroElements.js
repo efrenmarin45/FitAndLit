@@ -21,6 +21,10 @@ export const HeroContainer = styled.div`
         width: auto;
         padding-top: 75px;
     }
+    
+    @media screen and (max-width: 700px){
+        padding-top: 0px;
+    }
 `
 
 

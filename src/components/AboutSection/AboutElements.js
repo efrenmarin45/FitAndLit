@@ -61,6 +61,6 @@ export const AboutText = styled.div`
     }
 
     @media screen and (max-width: 700px){
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 `

@@ -15,7 +15,15 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarContainer>
                 <SidebarMenu>
-                <SidebarLink to="home" onClick={toggle}>
+                    <SidebarLink 
+                        activeClass="active"
+                        onClick={toggle}
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-185}
+                        duration={500}
+                        activeStyle>
                         Home
                     </SidebarLink>
                     <SidebarLink 

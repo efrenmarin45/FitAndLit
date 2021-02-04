@@ -13,13 +13,13 @@ const TransformationSection = () => {
                     <TransformOne>
                         <img className="transformImg" src={ImgOne} alt="Transformation Image"></img>
                         <TransformText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo sagittis, gravida quisque elit, ut. Neque, bibendum lorem magna leo egestas egestas. Vitae duis lorem quam quis risus facilisi hac phasellus auctor.
+                        Lucy struggled with a constant yo-yo effect with her weight and tried a lot of fad diets before finding her solution. Now she's lost over 50 pounds and has more energy for her day.
                         </TransformText>
                     </TransformOne>
                     <TransformTwo>
                         <img className="transformImg" src={ImgTwo} alt="Transformation Image"></img>
                         <TransformText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo sagittis, gravida quisque elit, ut. Neque, bibendum lorem magna leo egestas egestas. Vitae duis lorem quam quis risus facilisi hac phasellus auctor.
+                        Angie had accepted that she would not be able to lose her weight, then she found her solution. Now she's lost over 80 pounds and it's stayed off. Now she lives a healthier life and her mood and sleep have improved.
                         </TransformText>
                     </TransformTwo>
                 </TransformWrapper>

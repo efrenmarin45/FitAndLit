@@ -23,6 +23,7 @@ export const HeroContainer = styled.div`
     }
 `
 
+
 export const HeroBG = styled.div`
     position: abosolute;
     top: 0;
@@ -35,6 +36,7 @@ export const HeroBG = styled.div`
     background-color: #9D0797;
     margin: auto;
 `
+
 
 export const BGImage = styled.img`
     position: relative;
@@ -62,6 +64,7 @@ export const BGImage = styled.img`
     }
 `
 
+
 export const HeroImgBttmCircle = styled.div`
     position: relative;
     top: 200px;
@@ -88,43 +91,6 @@ export const HeroImgBttmCircle = styled.div`
     }
 `
 
-// !Removing, awaiting approval from client
-// export const BGCircles = styled.div`
-
-//     @media screen and (max-width: 1350px){
-//         position: relative;
-//         background-color: #5D005C;
-//         width: 400px;
-//         height: 400px;
-//         border-radius: 50%;
-//         top: 5;
-//         left: 54vh;
-//         box-shadow: 110px -210px 0 -50px white;
-//     }
-
-//     @media screen and (max-width: 1130px){
-//         display: none;
-//     }
-// `
-
-// export const BGCirclesSecond = styled.div`
-//     @media screen and (max-width: 1350px){
-//         position: relative;
-//         background-color: #99A4FF;
-//         width: 400px;
-//         height: 400px;
-//         border-radius: 50%;
-//         top: -35vh;
-//         left: 73vh;
-//         box-shadow: 25px -250px 0 -50px #E89CED,
-//                     90px -425px 0 -90px #FFDAF0,
-//                     130px -550px 0 -130px #FFFFFF;
-//     }
-
-//     @media screen and (max-width: 1130px){
-//         display: none;
-//     }
-// `
 
 export const HeroContent = styled.div`
     max-width: 1100px;
@@ -135,6 +101,7 @@ export const HeroContent = styled.div`
     justify-contents: flex-start;
     background-color: #9D0797;
 `
+
 
 export const HeroH1 = styled.h1`
     color: #fff;
@@ -174,6 +141,7 @@ export const HeroH1 = styled.h1`
         line-height: 30px;
     }
 `
+
 
 export const HeroP = styled.p`
     font-size: 30px;

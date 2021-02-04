@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 import {FaBars} from 'react-icons/fa';
 
@@ -25,6 +24,7 @@ export const Nav = styled.nav`
     }
 `
 
+
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
@@ -34,6 +34,7 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
     margin: auto;
 `
+
 
 export const NavLink = styled(LinkScroll)`
     color: #9D0797;
@@ -50,14 +51,13 @@ export const NavLink = styled(LinkScroll)`
     font-size: 30px;
 
     &.active {
-        border-bottom: solid 3px #9D0797;
+        border-bottom: solid 5px #9D0797;
     }
 
     &:hover {
         color: #00C9C8;
     }
     
-
     @media screen and (max-width: 1185px){
         font-size: 25px;
     }
@@ -66,6 +66,7 @@ export const NavLink = styled(LinkScroll)`
         font-size: 22px;
     }
 `
+
 
 export const Bars = styled(FaBars)`
     display: none;
@@ -86,6 +87,7 @@ export const Bars = styled(FaBars)`
         color: #00C9C8;
     }
 `
+
 
 export const NavMenu = styled.div`
     display: flex;

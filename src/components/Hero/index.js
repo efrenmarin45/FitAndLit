@@ -8,11 +8,12 @@ const HeroSection = () => {
             <HeroBG>
                 <HeroContent>
                     <HeroH1 id="start">Break Through<br></br> Your Limitations</HeroH1>
-                    <HeroP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu orci molestie, elementum sapien placerat, fringilla orci. Fusce id ipsum suscipit enim commodo commodo. Sed quis erat nibh. Sed egestas augue sed nisl tempus auctor. Fusce a metus vitae erat molestie gravida. </HeroP>
+                    <HeroP>
+                    <br></br>
+                    We all need help sometimes. Just like your car needs care and attention so does your body. If your goal is to lose weight, increase your energy, or simply live a healthier life then you need a boost! Break through what's been holding you back and achieve your goals. 
+                    </HeroP>
                     <HeroImgBttmCircle />
                     <BGImage src={HeroImg} />
-                    {/* <BGCircles /> */}
-                    {/* <BGCirclesSecond /> */}
                 </HeroContent>
             </HeroBG>
         </HeroContainer>

@@ -77,6 +77,7 @@ export const SolutionBladeRight = styled.div`
 export const SolutionTextOne = styled.p`
     font-size: 3em;
     background-color: #E89CED;
+    margin: 0 25px 0 0;
 
     @media screen and (max-width: 1350px){
         font-size: 1.5em;

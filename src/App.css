@@ -11,7 +11,7 @@ a{
 }
 
 .logo{
-    width: 100px;
+    width: 70px;
     height: auto;
     margin-left: 24px;
     background-color: transparent;
@@ -110,10 +110,12 @@ a{
 
     .waveBreakStart{
         display: none;
+        width: auto;
     }
 
     .waveBreakEnd{
         display: none;
+        width: auto;
     }
 }
 

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-    width: 1800px;
+    width: auto;
+    max-width: 1800px;
     margin: auto;
 
     @media screen and (max-width: 1350px){
@@ -17,7 +18,7 @@ export const TopTitle = styled.p`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4em;
+    font-size: 3em;
     margin-top: 125px;
 
     @media screen and (max-width: 1302px){
@@ -50,7 +51,7 @@ export const AboutWrapper = styled.div`
 `
 
 export const AboutText = styled.div`
-    font-size: 2em;
+    font-size: 1.5em;
     color: purple;
     margin: 20px 5px 5px 75px;
     width: 800px;

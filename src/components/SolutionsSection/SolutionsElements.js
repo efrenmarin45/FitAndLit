@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const SolutionsContainer = styled.div`
-    width: 1800px;
+    width: auto;
+    max-width: 1800px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -20,8 +21,9 @@ export const ProductTitle = styled.p`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4.5em;
+    font-size: 3.5em;
     padding-top: 25px;
+    z-index: 10;
 
     @media screen and (max-width: 1302px){
         font-size: 3em;
@@ -36,8 +38,9 @@ export const ProductTitleTwo = styled.p`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4em;
+    font-size: 3.5em;
     padding-top: 25px;
+    z-index: 10;
 
     @media screen and (max-width: 1302px){
         font-size: 3em;
@@ -49,7 +52,7 @@ export const SolutionBladeLeft = styled.div`
     bottom: 0;
 	width: 0;
 	height: 0;
-	border-right: 1800px solid transparent;
+	border-right: auto solid transparent;
 	border-left: 0px solid transparent;
 	border-bottom: 125px solid #FFF3FA;
     background-color: #E89CED;
@@ -64,7 +67,7 @@ export const SolutionBladeRight = styled.div`
     bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 1800px solid transparent;
+	border-left: auto solid transparent;
 	border-right: 0px solid transparent;
 	border-bottom: 125px solid #E89CED;
     background-color: #FFF3FA;
@@ -75,7 +78,7 @@ export const SolutionBladeRight = styled.div`
 `
 
 export const SolutionTextOne = styled.p`
-    font-size: 3em;
+    font-size: 2em;
     background-color: #E89CED;
     margin: 0 25px 0 0;
 
@@ -86,7 +89,7 @@ export const SolutionTextOne = styled.p`
 `
 
 export const SolutionTextTwo = styled.p`
-    font-size: 3em;
+    font-size: 2em;
     background-color: #FFF3FA;
     margin: 0 25px 100px 100px; 
 
@@ -161,15 +164,17 @@ export const SolutionFour = styled.div`
 
 export const SolutionButton = styled.button`
     background-color: #99A4FF;
-    width: 300px;
-    height: 100px;
+    // width: 300px;
+    width: 6.5em;
+    // height: 100px;
+    height: 2em;
     border: 5px solid white;
     border-radius: 65px;
     position: absolute;
     top: 75%;
     right: 5%;
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     z-index: 1;
     text-align: center;
@@ -202,15 +207,17 @@ export const SolutionButton = styled.button`
 
 export const SolutionButtonTwo = styled.button`
     background-color: #99A4FF;
-    width: 300px;
-    height: 100px;
+    // width: 300px;
+    // height: 100px;
+    width: 6.5em;
+    height: 2em;
     border: 5px solid white;
     border-radius: 65px;
     position: absolute;
     top: 70%;
     left: 5%;
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     z-index: 1;
 

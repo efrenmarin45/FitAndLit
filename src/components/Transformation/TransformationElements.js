@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const TransformationContainer = styled.div`
-    width: 1800px;
+    width: auto;
+    max-width: 1800px;
     background-color: #FFDAF0;
     margin: auto;
 

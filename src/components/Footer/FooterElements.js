@@ -5,7 +5,8 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaRegCopyright } from 'react-icons/fa';
 
 export const FooterContainer = styled.div`
-    width: 1800px;
+    width: auto;
+    max-width: 1800px;
     background-color: #8B89E5;
     margin: auto;
 

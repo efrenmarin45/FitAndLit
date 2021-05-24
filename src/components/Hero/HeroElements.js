@@ -10,7 +10,8 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
     margin: auto;
-    width: 1800px;
+    width: auto;
+    max-width: 1800px;
 
     @media screen and (max-width: 1800px){
         padding: 0;

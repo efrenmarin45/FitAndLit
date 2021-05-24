@@ -4,7 +4,7 @@ import {FaBars} from 'react-icons/fa';
 
 
 export const Nav = styled.nav`
-    height: 110px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 50px;
     z-index: 51;
     width: 100%;
     max-width: 1100px;
@@ -48,7 +48,7 @@ export const NavLink = styled(LinkScroll)`
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 28px;
 
     &.active {
         border-bottom: solid 5px #9D0797;

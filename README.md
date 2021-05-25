@@ -5,4 +5,4 @@ This client was in need of a site to tell her story and weightloss journey. She 
 *Received permission to display source code on a public repository from client
 
 ## Live Site
-[Fit&Lit](https://www.fitandlit.online)
+[Fit&Lit](https://efrenmarin45.github.io/fitandlit/)
